@@ -64,7 +64,7 @@ li {
 /* Mise en place du texte sur l'image */
 .center {
     position: absolute;
-    top:20%;
+    top:30%;
     left:50%;
     transform:translate(-50%, -50%);
     color:white;
@@ -177,7 +177,7 @@ li {
     text-align:center;
     margin-top: 15px;
     padding-top:15px;
-    font-size: 28px;
+    font-size: 34px;
     font-style: italic;
     font-family: 'Satisfy', cursive;
 }
@@ -229,6 +229,20 @@ li {
 
 #Bloc-4 {
     height: 500px;
+}
+#Bloc-4 blockquote {
+    position: absolute;
+    width:250px;
+    margin-left:500px;
+    margin-top: 50px;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Satisfy', cursive;
+    text-decoration:none;
+    color: #00a3e4;
+}
+#Bloc-4 blockquote footer {
+    color: black;
 }
 #Bloc-4 img {
     height:500px;
